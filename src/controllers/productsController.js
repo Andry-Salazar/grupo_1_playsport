@@ -1,5 +1,5 @@
 const controller = {
-  detail: (req, res) => res.render('product-detail'),
+  detail: (req, res) => res.render('products/product-detail'),
 };
 
 module.exports = controller;

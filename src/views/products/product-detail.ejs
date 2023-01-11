@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<%- include('./partials/head',{url:"/css/product-details.css"}) %>
+<%- include('../partials/head',{url:"/css/product-details.css"}) %>
 
   <body>
     <div class="main-container">
       <div class="container-central">
 
-        <%- include('./partials/nav-bar') %>
+        <%- include('../partials/nav-bar') %>
 
           <!-- CONTENIDO -->
           <div class="primary-content">
             <div class="content-left">
               <div class="slider">
                 <div class="arrow item-absoluto top-140px">
-                  <i class="fa-solid fa-chevron-left"></i>
+                  <i class="fas fa-chevron-left"></i>
+                  <!-- <i class="fa-solid fa-chevron-left"></i> -->
                 </div>
                 <div class="puntos-pag"></div>
                 <div class="arrow item-absoluto top-140px right-0">
-                  <i class="fa-solid fa-chevron-right"></i>
+                  <i class="fas fa-chevron-right"></i>
                 </div>
               </div>
               <div class="acordeon">
@@ -101,7 +102,7 @@
             </div>
           </div>
 
-          <%- include('./partials/footer') %>
+          <%- include('../partials/footer') %>
       </div>
     </div>
   </body>

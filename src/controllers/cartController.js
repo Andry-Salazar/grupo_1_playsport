@@ -1,5 +1,5 @@
 const controller = {
-  index: (req, res) => res.render('cart'),
+  index: (req, res) => res.render('products/cart'),
 };
 
 module.exports = controller;
